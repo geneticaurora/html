@@ -1,0 +1,9 @@
+/* * body {background-image: url("YGBKG.jpg");} Adds background inside the padding */
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+h1 {color: white; font-family: 'lexend deca', sans-serif;}
+h2 {color: white; font-family: 'lexend deca', sans-serif;}
+.banner {box-sizing: border-box; color:whitesmoke; font-family: 'lexend deca', sans-serif; background-color: #EABE2A; text-align: right;}
+a:link, a:visited {color: whitesmoke; text-decoration: none;} /* place a comma inbetween to keep on one line */
+.textfield {background-color: rgba(128,128,128,0.8)}
+.text {color: whitesmoke; text-align:justify;}
+* {box-sizing: border-box; padding: 20px}  
