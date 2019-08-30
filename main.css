@@ -1,12 +1,18 @@
 /* * body {background-image: url("YGBKG.jpg");} Adds background inside the padding */
-body {background-size: cover;} /*streches backgroundimage */
+body { 
+    background: url(10.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
-p  {font-size: 20px; color: whitesmoke; font-family: 'lexend deca', sans-serif;}
-h1 {color: white; font-family: 'lexend deca', sans-serif; font-size: 35px; padding: 0px,0px,0px,0px;}
-h2 {color: white; font-family: 'lexend deca', sans-serif; font-size: 28px;}
-h3 {color: white; font-family: 'lexend deca', sans-serif; font-size: 25px;}
-h4 {color: white; font-family: 'lexend deca', sans-serif; font-size: 22px;}
+p  {font-size: 16px; color: whitesmoke; font-family: 'lexend deca', sans-serif;}
+h1 {color: white; font-family: 'lexend deca', sans-serif; font-size: 30px;}
+h2 {color: white; font-family: 'lexend deca', sans-serif; font-size: 26px;}
+h3 {color: white; font-family: 'lexend deca', sans-serif; font-size: 22px;}
+h4 {color: white; font-family: 'lexend deca', sans-serif; font-size: 20px;}
 
 /*.banner {box-sizing: border-box 0px,0px,0px,0px;
         color:whitesmoke; 
@@ -37,7 +43,7 @@ a:link, a:visited {color: whitesmoke;
         font-size: 16px;
         }
 
-.textfield {background-color: rgba(128,128,128,0.5)
+.textfield {background-color: rgba(176, 125, 5, 0.6)
             ;padding:15px;}
 
 .text {color: whitesmoke; 
@@ -55,16 +61,17 @@ a:link, a:visited {color: whitesmoke;
     color:white;
     font-size: 25px;
     font-family: 'lexend deca', sans-serif;
+    align-self: baseline;
     padding:0px;
     text-align: center;
     flex: 2; /* makes it adapt to screen */
 }
   
-.box1 { background:transparent; flex: 15; font-size: 45px; text-align: left; font-weight: bold } /* flex:2 makes the box bigger */
-.box2 { background: rgba(234,190,42,0.6);text-emphasis-position: bottom;}
-.box3 { background:rgba(234,190,42,0.7);}
-.box4 { background:rgba(234,190,42,0.8);}
-.box5 { background:rgba(234,190,42,0.9);}
+.box1 { background: rgba(234,190,42,0.0); flex: 15; font-size: 45px; text-align: left; font-weight: bold } /* flex:2 makes the box bigger */
+.box2 { background: rgba(0, 0, 0, 0.5)}
+.box3 { background: rgba(0, 0, 0, 0.6)}
+.box4 { background:rgba(0, 0, 0, 0.7)}
+.box5 { background:rgba(0, 0, 0, 0.8)}
 .header2 {
   display: flex;
 }
